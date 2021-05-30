@@ -1,0 +1,130 @@
+.header {
+  background-color: var(--header-background);
+  padding-bottom: 60px;
+}
+.header__section {
+  background-color: var(--header-section);
+  color:var(--white);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.logo {
+}
+.search {
+}
+.search__label {
+}
+.search__label:hover>svg {
+  opacity: 1;
+}
+.search__input {
+  background-color:transparent;
+  border-style: none;
+}
+.search__input:focus{
+  background-color: var(--white);
+}
+.search__input:focus+svg{
+  fill:var(--red);
+}
+.user-menu {
+  list-style: none;
+  padding: 0;
+}
+.user-menu__item a{
+}
+.user-menu__link{
+  color:inherit;
+}
+.user-menu__link:hover>svg {
+  opacity: 1;;
+}
+.user-menu__link:active{
+  background-color: var(--user-link-active);
+}
+.user-menu__link:active>svg{
+  opacity: 0.3;;
+}
+.checkout a{
+  color: inherit;
+  background-color: var(--green);
+}
+.checkout a:hover{
+  background-color: var(--checkout-hover);
+}
+.checkout a:active{
+  color:var(--checkout-active);
+}
+
+.header__content {
+}
+.slogan {
+  color:var(--red);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+}
+.header__address {
+}
+.header__address a {
+  color:var(--red);
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30px;
+  background-color: var(--phone-bg);
+  border:3px var(--white) solid;
+}
+.header__address span {
+  color:var(--header-address);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.login {
+  list-style: none;
+  padding: 0;
+}
+.login__item {
+  background-color: var(--white);
+}
+.login__link {
+  font-size: 21px;
+  line-height: 21px;
+  color:var(--black);
+}
+.login__link:hover{
+  color:var(--red);
+}
+.login__link:hover>svg{
+  fill:var(--red);
+}
+.login__link:active{
+  color:var(--greylight);
+}
+.login__link:active>svg{
+  fill:var(--grey);
+}
+.navigation {
+  background-color:var(--header-address);
+  box-shadow: 0px 5px 0px 0px var(--header-section);
+
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+.nav-list__link {
+  color:var(--white);
+  font-size: 18px;
+  line-height: 24px;
+}
+.nav-list__link:hover{
+  background-color: var(--header-section);
+}
+.nav-list__link:active{
+  background-color: var(--nav-active);
+  color:var(--checkout-active);
+}

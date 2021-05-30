@@ -1,0 +1,101 @@
+:root {
+  --black: #000000;
+  --red: #EE3643;
+  --green: #63A63E;
+  --grey: #3D546F;
+  --greylight: #C5C5C5;
+  --header-background: #F1F5F7;
+  --header-section: #293449;
+  --white: #FFFFFF;
+  --checkout-hover: #5FBB2D;
+  --user-link-active:#161D29;
+  --checkout-active:rgba(255, 255, 255, 0.5);
+  --phone-bg:#F3F7F9;
+  --header-address:#32425C;
+  --nav-active:#1D2739;
+  --yellow: #FFBF47;
+  --blue: #3BBCE3;
+  --lilac: #DC91D8;
+  --greenlight: #8ED78F;
+  --catalog-link:rgba(255, 255, 255, 0.3);
+  --catalog-link-hover:rgba(197, 197, 197, 0.3);
+  --catalog-link-active:rgba(169, 169, 169, 0.3);
+  --slider-link-hover:#CA2C37;
+  --error: #BA2732;
+  --title-bg:#F9F5F0;
+  --s-color:#A9A9A9;
+  --firm-link-hover:rgba(0, 0, 0, 0.15);
+
+  --special-yellowlight: #FFD180;
+  --warning: #FFBF47;
+  --special-form_bg: #F4F4F4;
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src:local("Cuprum"),
+      url("/fonts/cuprum.woff2") format("woff2"),
+      url("/fonts/cuprum.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cuprum";
+  src:local("Cuprum"),
+      url("/fonts/cuprumbold.woff2") format("woff2"),
+      url("/fonts/cuprumbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cuprum";
+  src:local("Cuprum"),
+      url("/fonts/cuprumbolditalic.woff2") format("woff2"),
+      url("/fonts/cuprumbolditalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cuprum";
+  src:local("Cuprum"),
+      url("/fonts/cuprumitalic.woff2") format("woff2"),
+      url("/fonts/cuprumitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PTSans";
+  src:local("PTSans"),
+      url("/fonts/ptsans.woff2") format("woff2"),
+      url("/fonts/ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PTSans";
+  src:local("PTSans"),
+      url("/fonts/ptsansbold.woff2") format("woff2"),
+      url("/fonts/ptsansbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box; /*Это ты мне подсказал, если что*/
+}
+a{
+  text-decoration: none; /*По поводу этих селекторов по тегу есть исключения в критерии Д25*/
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  margin:0 auto;
+  max-width: 960px;
+  padding:0 10px;
+}
