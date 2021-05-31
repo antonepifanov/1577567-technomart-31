@@ -11,19 +11,19 @@
   color:var(--white);
 }
 .catalog-list__item:first-child {
-  background: var(--yellow) url("/img/icon-1.png") no-repeat 90% 50% ;
+  background: var(--yellow) url("../img/icon-1.png") no-repeat 90% 50% ;
 }
 .catalog-list__item:nth-child(2) {
-  background: var(--blue) url("/img/icon-2.png") no-repeat 90% 50% ;
+  background: var(--blue) url("../img/icon-2.png") no-repeat 90% 50% ;
 }
 .catalog-list__item:nth-child(3) {
-  background: var(--lilac) url("/img/icon-3.png") no-repeat 90% 50% ;
+  background: var(--lilac) url("../img/icon-3.png") no-repeat 90% 50% ;
 }
 .catalog-list__item:nth-child(5) {
-  background: var(--greenlight) url("/img/icon-4.png") no-repeat 90% 50% ;
+  background: var(--greenlight) url("../img/icon-4.png") no-repeat 90% 50% ;
 }
 .catalog-list__item:last-child {
-  background: var(--yellow) url("/img/icon-5.png") no-repeat 90% 50% ;
+  background: var(--yellow) url("../img/icon-5.png") no-repeat 90% 50% ;
 }
 .catalog-list__item b{
   font-size: 24px;
