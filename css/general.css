@@ -25,10 +25,14 @@
   --title-bg:#F9F5F0;
   --s-color:#A9A9A9;
   --firm-link-hover:rgba(0, 0, 0, 0.15);
+  --border-top:#405069;
+  --border-bottom:#293449;
+  --footer-yellow: #FFD180;
+  --social-bg:#212A3A;
+  --logo-shadow:#8A1F27;
 
-  --special-yellowlight: #FFD180;
   --warning: #FFBF47;
-  --special-form_bg: #F4F4F4;
+  --form_bg: #F4F4F4;
 }
 
 @font-face {

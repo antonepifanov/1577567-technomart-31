@@ -1,0 +1,100 @@
+.catalog {
+}
+.catalog-list {
+  list-style: none;
+  padding: 0;
+}
+.catalog-list__item {
+  width: 300px;
+  height: 123px;
+  color:var(--white);
+}
+.catalog-list__item:first-child {
+  background: var(--yellow) url("../img/icon-1.png") no-repeat 90% 50% ;
+}
+.catalog-list__item:nth-child(2) {
+  background: var(--blue) url("../img/icon-2.png") no-repeat 90% 50% ;
+}
+.catalog-list__item:nth-child(3) {
+  background: var(--lilac) url("../img/icon-3.png") no-repeat 90% 50% ;
+}
+.catalog-list__item:nth-child(5) {
+  background: var(--greenlight) url("../img/icon-4.png") no-repeat 90% 50% ;
+}
+.catalog-list__item:last-child {
+  background: var(--yellow) url("../img/icon-5.png") no-repeat 90% 50% ;
+}
+.catalog-list__item b{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.catalog-list__link {
+  text-transform: uppercase;
+  color:inherit;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: var(--catalog-link);
+}
+.catalog-list__link:hover{
+  background-color: var(--catalog-link-hover);
+}
+.catalog-list__link:active{
+  background-color: var(--catalog-link-active);
+}
+
+.slider {
+}
+.slider-wrapper {
+}
+.slider-list {
+  list-style: none;
+  padding: 0;
+}
+.slider-list__item {
+  background-color: var(--grey);
+}
+.slider-list__item a{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color:var(--white);
+  background-color:var(--red);
+}
+.slider-list__item a:hover{
+  background-color: var(--slider-link-hover);
+}
+.slider-list__item a:active{
+  background-color: var(--error);
+}
+.slide-desk{
+  color:var(--white);
+}
+.slide-desk b{
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.slide-desk span{
+  font-size: 18px;
+  line-height: 24px;
+}
+.slider-control {
+}
+.slider-control__button {
+}
+.slider-control__bitton-active {
+}
+.slider__button {
+  width: 22px;
+  height: 40px;
+  background:var(--black) url("../img/slider-arrow.svg") no-repeat;
+  border-style: none;
+}
+.slider__button-prev {
+
+}
+.slider__button-next {
+  transform:rotate(180deg);
+}

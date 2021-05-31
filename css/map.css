@@ -1,0 +1,7 @@
+.map{
+  width: 943px;
+  height: 449px;
+  background-color: var(--white);
+  box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
+  border-top: 7px solid var(--red);
+}

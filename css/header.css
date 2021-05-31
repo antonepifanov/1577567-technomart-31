@@ -10,6 +10,16 @@
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--red);
+  width: 220px;
+  height: 42px;
+  box-shadow: 0 5px 0 var(--logo-shadow);
+}
+.logo:active{
+  background-color: var(--error);
 }
 .search {
 }
