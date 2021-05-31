@@ -29,11 +29,12 @@
   padding: 0;
 }
 .firms-list__item {
+  border: 1px solid var(--firms-border);
 }
-.firms-list__link:hover {
+.firms-list__item:hover {
   box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
 }
-.firms-list__link:active {
+.firms-list__item:active {
   box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
   opacity: 0.5;
 }
