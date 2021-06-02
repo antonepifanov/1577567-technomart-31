@@ -1,17 +1,20 @@
 .popular {
 }
+
 .popular-header {
   background-color: var(--title-bg);
 }
-.popular-header h2{
+
+.popular-header h2 {
   font-size: 30px;
   font-style: normal;
-  line-height: 30px;
+  line-height: 1;
   font-weight: 400;
   color: var(--black);
   text-transform: uppercase;
 }
-.popular-header a{
+
+.popular-header a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,36 +26,45 @@
   background-color: var(--red);
   text-transform: uppercase;
 }
-.popular-header a:hover{
+
+.popular-header a:hover {
   background-color: var(--slider-link-hover);
 }
-.popular-header a:active{
+
+.popular-header a:active {
   background-color: var(--error);
 }
+
 .popular-list {
   font-family: "PTSans","Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
+  list-style: none;
 }
+
 .popular-list__item {
 }
+
 .popular-list__item h3 {
   font-size: 18px;
   line-height: 20px;
   color: var(--black);
 }
+
 .popular-list__item s {
   font-size: 17px;
-  line-height: 18px;
+  line-height: 1;
   color:var(--s-color);
   text-transform: uppercase;
 }
+
 .popular-list__item span {
   font-size: 17px;
-  line-height: 18px;
+  line-height: 1;
   text-transform: uppercase;
   color:var(--white);
   background-color: var(--red);
 }
+
 .popular-list__item-new {
 }

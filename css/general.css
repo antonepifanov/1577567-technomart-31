@@ -31,9 +31,8 @@
   --social-bg:#212A3A;
   --logo-shadow:#8A1F27;
   --firms-border:#EAEAEA;
-
-  --warning: #FFBF47;
   --form_bg: #F4F4F4;
+  --warning: #FFBF47;
 }
 
 @font-face {
@@ -44,6 +43,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Cuprum";
   src:local("Cuprum"),
@@ -52,6 +52,7 @@
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Cuprum";
   src:local("Cuprum"),
@@ -60,6 +61,7 @@
   font-weight: 700;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Cuprum";
   src:local("Cuprum"),
@@ -68,6 +70,7 @@
   font-weight: 400;
   font-style: italic;
 }
+
 @font-face {
   font-family: "PTSans";
   src:local("PTSans"),
@@ -76,6 +79,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "PTSans";
   src:local("PTSans"),
@@ -84,21 +88,25 @@
   font-weight: 700;
   font-style: normal;
 }
-body{
+
+body {
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-*{
+* {
   box-sizing: border-box; /*Это ты мне подсказал, если что*/
 }
-a{
+
+a {
   text-decoration: none; /*По поводу этих селекторов по тегу есть исключения в критерии Д25*/
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 .container {
   margin:0 auto;
   max-width: 960px;

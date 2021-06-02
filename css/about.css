@@ -1,18 +1,21 @@
 .about {
   color: var(--black);
 }
-.about h3{
+
+.about h3 {
   font-size: 30px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1;
   text-transform: uppercase;
 }
-.about-info p, .about-contacts p  {
-  font-family: PT Sans;
+
+.about-info p, .about-contacts p {
+  font-family: "PTSans","Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
-.about-info a{
+
+.about-info a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,12 +27,14 @@
   background-color: var(--red);
   text-transform: uppercase;
 }
+
 .delivery {
   list-style: none;
   font-size: 18px;
   line-height: 24px;
 }
-.about-contacts button{
+
+.about-contacts button {
   border-style: none;
   display: flex;
   justify-content: center;
@@ -42,4 +47,3 @@
   background-color: var(--red);
   text-transform: uppercase;
 }
-

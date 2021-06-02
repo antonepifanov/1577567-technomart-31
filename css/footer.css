@@ -4,7 +4,7 @@
   line-height: 24px;
 }
 
-.footer-logo{
+.footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,61 +13,79 @@
   height:63px;
   box-shadow: 0 5px 0 var(--logo-shadow);
 }
-.footer-logo:active{
+
+.footer-logo:active {
   background-color: var(--error);
 }
-.footer-address{
+
+.footer-address {
   color: var(--white);
   font-style: normal;
 }
-.footer-address a{
+
+.footer-address a {
   color: var(--white);
 }
 
 .footer-nav {
 }
+
 .site-nav {
   list-style: none;
 }
+
 .site-nav__item {
 }
-.site-nav__item a{
+
+.site-nav__item a {
   color: var(--white);
 }
-.site-nav__item a:hover{
+
+.site-nav__item a:hover {
   text-decoration: underline;
 }
-.site-nav__item a:active{
+
+.site-nav__item a:active {
   opacity: 0.5;
 }
+
 .products-nav {
   list-style: none;
 }
+
 .products-nav__item {
 }
-.products-nav__item a{
+
+.products-nav__item a {
   color: var(--footer-yellow);
 }
-.products-nav__item a:active{
+
+.products-nav__item a:active {
   opacity: 0.5;
 }
-.products-nav__item a:hover{
+
+.products-nav__item a:hover {
   text-decoration: underline;
 }
+
 .footer-section {
   background-color: var(--header-section);
   font-size: 16px;
   line-height: 18px;
 }
+
 .footer-section__wrapper {
 }
+
 .copyright {
   color: var(--white)
 }
+
 .socials {
   list-style: none;
 }
-.socials__link a{
+
+.socials__link a {
   display: block;
   width: 44px;
   height: 44px;
@@ -76,35 +94,46 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-.socials__link:first-child a{
+
+.socials__link:first-child a {
   background-image:url("../img/icon-vk.svg");
 }
-.socials__link:nth-child(2) a{
+
+.socials__link:nth-child(2) a {
   background-image:url("../img/icon-fb.svg");
 }
-.socials__link:last-child a{
+
+.socials__link:last-child a {
   background-image:url("../img/icon-insta.svg");
 }
-.socials__link a:hover,.socials__link a:active{
+
+.socials__link a:hover,.socials__link a:active {
   background-color: var(--red);
 }
+
 .footer-feedback {
 }
+
 .footer-feedback__item {
 }
-.footer-feedback__item dt{
+
+.footer-feedback__item dt {
   color: var(--white);
 }
-.footer-feedback__item dd{
+
+.footer-feedback__item dd {
   margin: 0;
 }
+
 .footer-feedback__link {
   color: var(--footer-yellow);
 }
-.footer-feedback__link:hover{
+
+.footer-feedback__link:hover {
   text-decoration: underline;
 }
-.footer-feedback__link:active{
+
+.footer-feedback__link:active {
   text-decoration: none;
   color: var(--red);
 }

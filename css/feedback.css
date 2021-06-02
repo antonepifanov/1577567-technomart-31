@@ -5,21 +5,27 @@
   box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
   border-top: 7px solid var(--red);
 }
+
 .feedback-form {
 }
+
 .form-wrapper {
 }
+
 .form-item {
 }
-.form-item label{
+
+.form-item label {
   font-size: 18px;
   line-height: 24px;
   color: var(--black);
 }
+
 .form-button {
   background-color: var(--form_bg);
 }
-.form-button button{
+
+.form-button button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,5 +38,6 @@
   text-transform: uppercase;
   border-style: none;
 }
+
 .close-button {
 }
