@@ -32,6 +32,14 @@
   --logo-shadow:#8A1F27;
   --firms-border:#EAEAEA;
   --form_bg: #F4F4F4;
+  --filter-bg:#F7F3EC;
+  --checkbox-hover:#B5B5B5;
+  --checkbox-dis:#E5E5E5;
+  --sorts-color:rgba(0,0,0,0.3);
+  --button-shadow:#367315;
+  --button-active:#518534;
+  --bookmark-active:#98A0AD;
+  --cart-bg:#F1F1F1;
 }
 
 @font-face {
@@ -93,6 +101,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 * {
   box-sizing: border-box; /*Это ты мне подсказал, если что*/
 }

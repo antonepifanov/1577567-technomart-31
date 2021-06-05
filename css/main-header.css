@@ -1,0 +1,39 @@
+.catalog-title {
+  background-color: var(--header-background);
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--header-address);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main-pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-pagination__item {
+}
+
+.main-pagination__link {
+  font-family: "PTSans","Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.main-pagination__link:hover:not(.main-pagination__link-active),  .main-pagination__link:hover svg {
+  color: var(--red);
+}
+
+.main-pagination__link:hover svg {
+  fill: var(--red);
+}
+
+.main-pagination__link-active {
+  opacity: 0.3;
+}
