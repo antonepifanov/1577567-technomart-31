@@ -12,6 +12,8 @@
   font-weight: 400;
   color: var(--black);
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 .popular-header a {
@@ -40,9 +42,12 @@
   font-weight: 700;
   font-style: normal;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .popular-list__item {
+  border:1px solid var(--checkbox-dis);
 }
 
 .popular-list__item h3 {
@@ -50,6 +55,8 @@
   font-weight: 700;
   line-height: 1.1;
   color: var(--black);
+  margin: 0;
+  padding: 0;
 }
 
 .popular-list__item s {
@@ -60,7 +67,9 @@
 }
 
 .popular-list__item span {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 141px;
   height: 38px;
   background: url("../img/price-bg.svg") no-repeat;
@@ -68,9 +77,6 @@
   line-height: 1;
   text-transform: uppercase;
   color:var(--white);
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .popular-list__item-new {

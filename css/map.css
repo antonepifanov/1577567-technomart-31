@@ -1,4 +1,5 @@
 .map {
+  position: relative;
   width: 943px;
   height: 449px;
   background-color: var(--white);

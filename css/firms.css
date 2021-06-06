@@ -11,6 +11,8 @@
   line-height: 1;
   color: var(--black);
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .firms-header a {
@@ -29,6 +31,7 @@
 .firms-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .firms-list__item {

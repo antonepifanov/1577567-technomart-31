@@ -184,13 +184,16 @@
 }
 
 .filter-form button {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   font-size: 13px;
   line-height: 1.4;
   text-transform: uppercase;
   background-color: var(--white);
   width: 220px;
   height: 38px;
-  text-align: center;
-  vertical-align: middle;
   border:1px solid var(--checkbox-dis);
 }

@@ -3,6 +3,8 @@
 
 .account-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   background-color: var(--white);
 }
 
@@ -33,6 +35,8 @@
 
 .private-office {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .private-office__item {

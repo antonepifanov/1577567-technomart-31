@@ -7,12 +7,16 @@
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .about-info p, .about-contacts p {
   font-family: "PTSans","Arial", sans-serif;
   font-size: 13px;
   line-height: 1.8;
+  padding: 0;
+  margin: 0;
 }
 
 .about-info a {
@@ -32,6 +36,8 @@
   list-style: none;
   font-size: 18px;
   line-height: 1.3;
+  margin: 0;
+  padding: 0;
 }
 
 .about-contacts button {
