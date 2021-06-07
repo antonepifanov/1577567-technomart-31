@@ -47,7 +47,7 @@
 }
 
 .popular-list__item {
-  border:1px solid var(--checkbox-dis);
+  border: 1px solid var(--checkbox-dis);
 }
 
 .popular-list__item h3 {
@@ -62,7 +62,7 @@
 .popular-list__item s {
   font-size: 17px;
   line-height: 1;
-  color:var(--s-color);
+  color: var(--s-color);
   text-transform: uppercase;
 }
 
@@ -76,7 +76,7 @@
   font-size: 17px;
   line-height: 1;
   text-transform: uppercase;
-  color:var(--white);
+  color: var(--white);
 }
 
 .popular-list__item-new {

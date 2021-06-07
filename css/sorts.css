@@ -2,6 +2,7 @@
   background-color: var(--filter-bg);
   font-family: "PTSans","Arial", sans-serif;
   padding: 10px 0;
+  margin-bottom: 8px;
   grid-row: 3/4;
   grid-column: 2/3;
 }

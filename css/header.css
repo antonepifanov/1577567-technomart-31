@@ -35,7 +35,7 @@
 }
 
 .search__input {
-  background-color:transparent;
+  background-color: transparent;
   border-style: none;
 }
 
@@ -113,8 +113,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
-  height: 45px;
+  min-width: 270px;
+  min-height: 45px;
   color: var(--red);
   font-size: 21px;
   font-weight: 700;

@@ -10,7 +10,7 @@
   align-items: center;
   background-color: var(--red);
   width: 220px;
-  height:63px;
+  height: 63px;
   box-shadow: 0 5px 0 var(--logo-shadow);
 }
 
@@ -102,15 +102,15 @@
 }
 
 .socials__link:first-child a {
-  background-image:url("../img/icon-vk.svg");
+  background-image: url("../img/icon-vk.svg");
 }
 
 .socials__link:nth-child(2) a {
-  background-image:url("../img/icon-fb.svg");
+  background-image: url("../img/icon-fb.svg");
 }
 
 .socials__link:last-child a {
-  background-image:url("../img/icon-insta.svg");
+  background-image: url("../img/icon-insta.svg");
 }
 
 .socials__link a:hover,.socials__link a:active {

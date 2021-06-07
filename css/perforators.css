@@ -35,7 +35,7 @@
 .perforators-list__item s {
   font-size: 17px;
   line-height: 1;
-  color:var(--s-color);
+  color: var(--s-color);
   text-transform: uppercase;
 }
 
