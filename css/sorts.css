@@ -2,6 +2,8 @@
   background-color: var(--filter-bg);
   font-family: "PTSans","Arial", sans-serif;
   padding: 10px 0;
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 .sorts h2 {
@@ -9,9 +11,10 @@
   font-size: 13px;
   line-height: 1.4;
   font-weight: 400;
-  margin:0 0 0 19px;
+  margin: 0 0 0 19px;
   text-transform: uppercase;
   padding: 0;
+  margin: 0;
 }
 
 .sorts-list {
@@ -27,18 +30,18 @@
   border-style: none;
   background-color: transparent;
   text-transform: uppercase;
-  color:var(--sorts-color);
+  color: var(--sorts-color);
   padding: 0 0 2px 0;
   border-bottom: 1px dashed var(--red);
 }
 
 .sorts-list__button:hover:not(.sorts-list__button-active) {
-  color:var(--black);
-  border-bottom-style:solid;
+  color: var(--black);
+  border-bottom-style: solid;
 }
 
 .sorts-list__button-active {
-  color:var(--red);
+  color: var(--red);
   border: none;
 }
 
@@ -63,5 +66,5 @@
 }
 
 .range-list__item:last-child .range-list__button {
-  transform:rotate(180deg);
+  transform: rotate(180deg);
 }

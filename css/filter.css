@@ -2,6 +2,8 @@
   color: var(--black);
   font-family: "PTSans","Arial", sans-serif;
   text-transform: uppercase;
+  grid-row: 3/5;
+  grid-column: 1/2;
 }
 
 .filter h2 {
@@ -67,16 +69,15 @@
 }
 
 .firms-checkbox+label::before {
-  content:"";
+  content: "";
   position: absolute;
-  left:-30px;
+  left: -30px;
   top: -2px;
   width: 23px;
   height: 23px;
   background-color: var(--white);
   border-radius: 3px;
-  border:2px solid var(--greylight);
-  box-sizing: border-box;
+  border: 2px solid var(--greylight);
 }
 
 .firms-checkbox:checked+label::before {
@@ -87,7 +88,7 @@
 }
 
 .firms-checkbox:hover:not(:checked)+label::before {
-  border:2px solid var(--checkbox-hover);
+  border: 2px solid var(--checkbox-hover);
 }
 
 .firms-checkbox:checked:hover+label::before {
@@ -102,11 +103,11 @@
 }
 
 .firms-checkbox:disabled+label::before {
-  border:2px solid var(--checkbox-dis);
+  border: 2px solid var(--checkbox-dis);
 }
 
 .firms-checkbox:disabled:hover+label::before {
-  border:2px solid var(--checkbox-dis);
+  border: 2px solid var(--checkbox-dis);
 }
 
 .firms-checkbox:disabled:checked+label::before {
@@ -139,7 +140,7 @@
 }
 
 .power-list__input+label::before {
-  content:"";
+  content: "";
   position: absolute;
   left:-30px;
   top: -2px;
@@ -147,24 +148,22 @@
   height: 25px;
   background-color: var(--white);
   border-radius: 50%;
-  border:4px solid var(--greylight);
-  box-sizing: border-box;
+  border: 4px solid var(--greylight);
 }
 
 .power-list__input:checked+label::after {
-  content:"";
+  content: "";
   position: absolute;
-  left:-22px;
+  left: -22px;
   top: 6px;
   width: 9px;
   height: 9px;
   background-color: var(--greylight);
   border-radius: 50%;
-  box-sizing: border-box;
 }
 
 .power-list__input:hover+label::before {
-  border:4px solid var(--checkbox-hover);
+  border: 4px solid var(--checkbox-hover);
 }
 
 .power-list__input:checked:hover+label::after {
@@ -172,7 +171,7 @@
 }
 
 .power-list__input:disabled+label::before {
-  border:4px solid var(--checkbox-dis);
+  border: 4px solid var(--checkbox-dis);
 }
 
 .power-list__input:disabled+label {
@@ -193,7 +192,7 @@
   line-height: 1.4;
   text-transform: uppercase;
   background-color: var(--white);
-  width: 220px;
-  height: 38px;
-  border:1px solid var(--checkbox-dis);
+  min-width: 220px;
+  min-height: 38px;
+  border: 1px solid var(--checkbox-dis);
 }
