@@ -110,7 +110,7 @@
 
 .header__content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   padding-top: 46px;
 }
@@ -124,12 +124,14 @@
   line-height: 1.4;
   padding: 0 0 0 30px;
   margin: 0;
+  margin-right: 93px;
 }
 
 .header__address {
   grid-column: 2/3;
   grid-row: 1/2;
   display: flex;
+  justify-self: start;
   flex-direction: column;
   justify-content: center;
   align-items: center;

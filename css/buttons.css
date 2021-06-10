@@ -39,11 +39,11 @@
   background-color: var(--catalog-link);
 }
 
-.catalog-button:hover {
+.button.catalog-button:hover {
   background-color: var(--catalog-link-hover);
 }
 
-.catalog-button:active {
+.button.catalog-button:active {
   background-color: var(--catalog-link-active);
 }
 
