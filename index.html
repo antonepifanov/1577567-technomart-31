@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div class="header__section">
-        <div class="container">
+        <div class="container header__section-content">
           <a class="logo">
             <img src="img/logo.svg" width="108" height="18" alt="Логотип компании Техномарт">
           </a>
@@ -28,17 +28,16 @@
           <ul class="user-menu">
             <li class="user-menu__item">
               <a class="user-menu__link" href="#">
-                <span> Закладки: 0</span>
                 <svg width="14" height="16" viewBox="0 0 14 16" fill="white" opacity="0.3" xmlns="http://www.w3.org/2000/svg">
                   <g>
                     <path d="M14 15C14 15.55 13.632 15.741 13.182 15.426L7.819 11.661C7.369 11.346 6.632 11.346 6.182 11.661L0.818 15.426C0.368 15.741 0 15.55 0 15V1C0 0.45 0.45 0 1 0H13C13.55 0 14 0.45 14 1V15Z"/>
                   </g>
                 </svg>
+                <span> Закладки: 0</span>
               </a>
             </li>
             <li class="user-menu__item">
               <a class="user-menu__link" href="#">
-                <span>Корзина: 0</span>
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="white" opacity="0.3" xmlns="http://www.w3.org/2000/svg">
                   <g>
                     <path d="M4.5 15C5.32843 15 6 14.3284 6 13.5C6 12.6716 5.32843 12 4.5 12C3.67157 12 3 12.6716 3 13.5C3 14.3284 3.67157 15 4.5 15Z" fill="white"/>
@@ -46,10 +45,11 @@
                     <path d="M15 2H4.07L3.648 0H0V2H2.031L4.016 11H15V9H9.441L15 6.951V2Z"/>
                   </g>
                 </svg>
+                <span>Корзина: 0</span>
               </a>
             </li>
-            <li class="checkout">
-              <a href="#">Оформить заказ</a>
+            <li class="user-menu__item checkout">
+              <a class="user-menu__link" href="#">Оформить заказ</a>
             </li>
           </ul>
         </div>
@@ -404,8 +404,8 @@
             <textarea name="letter" id="form_letter" placeholder="В свободной форме"></textarea>
           </p>
         </div>
-        <div class="form-button">
-          <button type="submit">Отправить</button>
+        <div class="button-wrapper">
+          <button class="button form-button " type="submit">Отправить</button>
         </div>
       </form>
       <button class="close-button" type="button" aria-label="Закрыть"></button>

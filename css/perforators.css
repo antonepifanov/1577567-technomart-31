@@ -105,11 +105,11 @@
 .catalog-pagination__item {
   min-width: 38px;
   min-height: 38px;
+  display: inline-flex;
 }
 
 .catalog-pagination__item a {
   width: 100%;
-  height: 100%;
   display: inline-flex;
   justify-content: center;
   align-items: center;

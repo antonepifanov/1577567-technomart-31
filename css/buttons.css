@@ -5,6 +5,7 @@
   padding: 0;
   border: none;
   background: none;
+  background-color: var(--red);
   min-height: 38px;
   text-transform: uppercase;
   color: var(--white);
@@ -14,20 +15,18 @@
 
 .section-button {
   min-width: 192px;
-  background-color: var(--red);
 }
 
-.button:hover {
+.button:hover:not(.new-price) {
   background-color: var(--slider-link-hover);
 }
 
-.button:active {
+.button:active:not(.new-price) {
   background-color: var(--error);
 }
 
 .new-price {
   min-width: 141px;
-  background: var(--red);
   font-size: 17px;
   line-height: 1;
 }
@@ -51,15 +50,29 @@
 .credit-link {
   font-family: "Cuprum", "Arial", sans-serif;
   min-width: 192px;
-  background-color: var(--red);
 }
 
 .about-link {
   min-width: 220px;
-  background-color: var(--red);
 }
 
 .about-button {
   min-width: 300px;
-  background-color: var(--red);
+}
+
+.form-button {
+  min-width: 460px;
+  cursor: pointer;
+}
+
+.white-button {
+  min-width: 192px;
+  background-color: var(--white);
+  color: var(--black);
+  cursor: pointer;
+}
+
+.button.white-button:hover, .button.white-button:active {
+  background-color: var(--white);
+  color: var(--red);
 }
