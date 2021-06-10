@@ -17,11 +17,11 @@
   background-color: var(--red);
 }
 
-.section-button:hover {
+.button:hover {
   background-color: var(--slider-link-hover);
 }
 
-.section-button:active {
+.button:active {
   background-color: var(--error);
 }
 
