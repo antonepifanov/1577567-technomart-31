@@ -110,7 +110,7 @@
 }
 
 .header__address a {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   min-width: 270px;
@@ -199,6 +199,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-list__link {

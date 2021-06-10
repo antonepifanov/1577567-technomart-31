@@ -16,27 +16,6 @@
   margin: 0;
 }
 
-.popular-header a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 192px;
-  height: 38px;
-  font-size: 14px;
-  line-height: 1.3;
-  color: var(--white);
-  background-color: var(--red);
-  text-transform: uppercase;
-}
-
-.popular-header a:hover {
-  background-color: var(--slider-link-hover);
-}
-
-.popular-header a:active {
-  background-color: var(--error);
-}
-
 .popular-list {
   font-family: "PTSans","Arial", sans-serif;
   font-weight: 700;
@@ -64,19 +43,6 @@
   line-height: 1;
   color: var(--s-color);
   text-transform: uppercase;
-}
-
-.popular-list__item span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 141px;
-  height: 38px;
-  background: url("../img/price-bg.svg") no-repeat;
-  font-size: 17px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: var(--white);
 }
 
 .popular-list__item-new {

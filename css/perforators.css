@@ -39,19 +39,6 @@
   text-transform: uppercase;
 }
 
-.perforators-list__item>span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 141px;
-  height: 38px;
-  background: url("../img/price-bg.svg") no-repeat;
-  font-size: 17px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
 .card-hover {
   display: none;
   position: absolute;
@@ -116,13 +103,14 @@
 }
 
 .catalog-pagination__item {
-
+  min-width: 38px;
+  min-height: 38px;
 }
 
 .catalog-pagination__item a {
-  width: 38px;
-  height: 38px;
-  display: flex;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--checkbox-dis);
@@ -134,8 +122,8 @@
   line-height: 1.4px;
 }
 
-.catalog-pagination__item:last-of-type a {
-  width: 140px;
+.catalog-pagination__item:last-of-type {
+  min-width: 140px;
 }
 
 .catalog-pagination__item a:hover {
