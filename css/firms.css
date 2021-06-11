@@ -1,8 +1,15 @@
 .firms {
+  margin-bottom: 50px;
 }
 
 .firms-header {
   background-color: var(--title-bg);
+  min-height: 89px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px 0 28px;
+  margin-bottom: 20px;
 }
 
 .firms-header h2 {
@@ -19,10 +26,21 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
 }
 
 .firms-list__item {
   border: 1px solid var(--firms-border);
+  min-width: 220px;
+  min-height: 145px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .firms-list__item:hover {

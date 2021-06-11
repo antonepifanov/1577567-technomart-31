@@ -263,3 +263,8 @@
   background-color: var(--nav-active);
   color: var(--checkout-active);
 }
+
+.nav-list__link:not([href]):hover, .nav-list__link:not([href]):active {
+  color: var(--white);
+  background-color: var(--header-address);
+}
