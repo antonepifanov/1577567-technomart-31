@@ -30,6 +30,7 @@
   min-width: 141px;
   font-size: 17px;
   line-height: 1;
+  clip-path: polygon(0 0, 122px 0, 100% 50%, 122px 100%, 0 100%);
 }
 
 .catalog-button {
