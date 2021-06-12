@@ -59,6 +59,7 @@
 .perforator-list__item:hover .card-hover {
   transform: scale(1);
   opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
 
 .card-hover {
@@ -75,7 +76,6 @@
   padding-bottom: 38px;
   transform: scale(0);
   opacity: 0;
-  transition: all 0.4s ease-in-out;
 }
 
 .card-hover button {
