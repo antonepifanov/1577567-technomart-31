@@ -1,0 +1,132 @@
+.perforator-list {
+  font-family: "PTSans","Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.perforator-list__item {
+  border: 1px solid var(--checkbox-dis);
+  max-width: 220px;
+  min-height: 318px;
+  padding-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.perforator-list__item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--black);
+  margin: 0 0 7px 0;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.img-wrapper {
+  order:-1;
+  flex-grow: 1;
+  display: flex;justify-content: center;
+  align-items: center;
+}
+
+.perforator-list__item s {
+  font-size: 17px;
+  line-height: 1;
+  color: var(--s-color);
+  text-transform: uppercase;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.perforator-list__item:hover {
+  box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
+}
+
+.perforator-list__item:hover .card-hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  padding-top: 38px;
+  padding-bottom: 38px;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-hover button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 38px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0;
+}
+
+.buy {
+  background: var(--green) url("../img/icon-cart.svg") no-repeat 30px 10px;
+  color: var(--white);
+  border: none;
+  box-shadow: 0px -3px 0px 0px var(--button-shadow) inset;
+  margin-bottom: 10px;
+}
+
+.buy>span {
+  padding-left: 18px;
+}
+
+.buy:hover {
+  background-color: var(--checkout-hover);
+}
+
+.buy:active {
+  background-color: var(--button-active);
+}
+
+.bookmark {
+  color: var(--header-address);
+  background-color: var(--white);
+  border: 3px solid var(--green);
+}
+
+.bookmark:hover {
+  border-color: var(--header-address);
+}
+
+.bookmark:active {
+  color: var(--bookmark-active);
+  border-color: var(--bookmark-active);
+}
+
+.perforator-list__item-new {
+}
