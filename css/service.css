@@ -1,5 +1,7 @@
 .service {
   background-color: var(--header-background);
+  padding-top: 64px;
+  margin-bottom: 70px;
 }
 
 .service-title {
@@ -9,7 +11,7 @@
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 25px 0;
   padding: 0;
 }
 
@@ -21,10 +23,17 @@
   line-height: 1.8;
   color: var(--black);
   padding: 0;
-  margin: 0;
+  margin: 0 0 70px 0;
+}
+
+.service-content {
+  display: flex;
+  padding-bottom: 4px;
 }
 
 .service-buttons {
+  margin-right: 80px;
+  padding-bottom: 95px;
 }
 
 .buttons-list {
@@ -64,11 +73,17 @@
 }
 
 .service-desc {
+  flex-grow: 1;
 }
 
 .desc-list {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.desc-list__content {
+  height: 100%;
 }
 
 .desc-list dt {
@@ -76,6 +91,7 @@
   line-height: 1;
   text-transform: uppercase;
   color: var(--header-address);
+  margin-bottom: 30px;
 }
 
 .desc-list dd {
@@ -87,15 +103,15 @@
 }
 
 .desc-list__content-delivery {
-  background: url("../img/delivery.png") no-repeat right;
+  background: url("../img/delivery.png") no-repeat right bottom;
 }
 
 .desc-list__content-guarantee {
   display: none;
-  background: url("../img/guarantee.png") no-repeat right;
+  background: url("../img/guarantee.png") no-repeat right bottom;
 }
 
 .desc-list__content-credit {
   display: none;
-  background: url("../img/credit.png") no-repeat right;
+  background: url("../img/credit.png") no-repeat right bottom;
 }

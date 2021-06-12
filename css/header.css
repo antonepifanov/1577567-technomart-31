@@ -205,6 +205,10 @@
   text-align: center;
 }
 
+.login__link>svg {
+  margin-right: 8px;
+}
+
 .login__link:hover {
   color: var(--red);
 }
