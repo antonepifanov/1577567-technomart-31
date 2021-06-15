@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.account-list__link>svg {
+  flex-shrink: 0;
+}
+
 .account-list__link>span {
   color: var(--black);
   font-family: Cuprum;

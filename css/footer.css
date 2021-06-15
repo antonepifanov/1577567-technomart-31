@@ -6,7 +6,6 @@
 
 .footer-header {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 54px;
 }
 
@@ -38,6 +37,9 @@
 
 .footer-nav {
   padding-top: 37px;
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
 }
 
 .site-nav {
@@ -45,6 +47,7 @@
   padding: 0;
   margin: 0 0 34px 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .site-nav__item:not(:last-of-type) {
@@ -68,7 +71,8 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .products-nav__item:not(:last-of-type) {

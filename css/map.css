@@ -1,5 +1,6 @@
 .map {
   position: relative;
+  left: calc(50vw - 471px);
   width: 943px;
   height: 449px;
   background-color: var(--white);

@@ -1,5 +1,6 @@
 .feedback {
   position: relative;
+  left: calc(50vw - 310px);
   width: 620px;
   height: 430px;
   background-color: var(--white);
@@ -8,12 +9,52 @@
 }
 
 .feedback-form {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .form-wrapper {
+  padding: 38px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .form-item {
+  margin: 0;
+  padding: 0;
+  flex-basis: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item-textarea {
+  margin-top: 13px;
+  flex-grow: 1;
+}
+
+.form-item label {
+  margin-bottom: 11px;
+}
+
+.form-item input {
+  min-height: 38px;
+  outline: none;
+  border: 2px solid var(--greylight);
+  border-radius: 2px;
+}
+
+.form-item-textarea textarea {
+  min-height: 114px;
+  outline: none;
+  border: 2px solid var(--greylight);
+  border-radius: 2px;
+  resize: none;
+}
+
+.form-item-textarea textarea::placeholder, .form-item input::placeholder {
+  color: var(--greylight);
 }
 
 .form-item label {
@@ -23,6 +64,7 @@
 }
 
 .button-wrapper {
+  padding: 37px 80px;
   background-color: var(--form_bg);
 }
 
