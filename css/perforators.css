@@ -15,12 +15,14 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
 .catalog-pagination__item {
   min-width: 38px;
   min-height: 38px;
   display: inline-flex;
+  margin-right: 10px;
 }
 
 .catalog-pagination__item a {

@@ -12,7 +12,7 @@
   font-size: 13px;
   line-height: 1.4;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 24px 0;
 }
 
 .filter-form {
@@ -26,6 +26,8 @@
 
 .form-fieldset:not(:last-of-type) {
   border-bottom: 1px solid var(--firms-border);
+  margin-bottom: 17px;
+  padding-bottom: 26px;
 }
 
 .form-fieldset legend {
@@ -34,15 +36,15 @@
   line-height: 1.8;
 }
 
-.form-fieldset legend:first-of-type {
+.form-fieldset:first-of-type legend {
   margin-bottom: 11px;
 }
 
-.form-fieldset legend:nth-of-type(2) {
+.form-fieldset:nth-of-type(2) legend {
   margin-bottom: 18px;
 }
 
-.form-fieldset legend:nth-of-type(3) {
+.form-fieldset:nth-of-type(3) legend {
   margin-bottom: 23px;
 }
 
@@ -52,7 +54,7 @@
   margin: 0;
 }
 
-.firms-check__item {
+.firms-check__item:not(:last-child) {
   margin-bottom: 19px;
 }
 
@@ -123,7 +125,7 @@
   margin: 0;
 }
 
-.power-list__item {
+.power-list__item:not(:last-child) {
   margin-bottom: 23px;
 }
 
@@ -195,4 +197,5 @@
   min-width: 220px;
   min-height: 38px;
   border: 1px solid var(--checkbox-dis);
+  margin-top: 37px;
 }
