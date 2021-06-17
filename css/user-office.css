@@ -62,7 +62,12 @@
   align-items: center;
 }
 
-.private-office::after {
+.private-office__item:not(:last-child) {
+  position: relative;
+  margin-right: 33px;
+}
+
+.private-office__item:not(:last-child)::after {
   content: "";
   width: 6px;
   height: 6px;
@@ -70,11 +75,7 @@
   position: absolute;
   background-color: var(--header-address);
   top: calc(50% - 3px);
-  left: 88px;
-}
-
-.private-office__item:first-child {
-  margin-right: 33px;
+  right: -19px;
 }
 
 .private-office__item a {

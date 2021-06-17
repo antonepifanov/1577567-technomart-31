@@ -1,7 +1,6 @@
 .cart {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  left: calc(50vw - 310px);
   width: 620px;
   height: 282px;
   background-color: var(--white);
