@@ -32,15 +32,29 @@
 }
 
 .service-buttons {
-  margin-right: 80px;
-  padding-bottom: 95px;
 }
 
 .buttons-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-right: 80px;
+  padding-bottom: 95px;
+  position: relative;
 }
+
+.buttons-list::after {
+  position: absolute;
+  content: "";
+  top: -49px;
+  right: 0;
+  width: 10px;
+  height: 279px;
+  background-image: url("../img/service-shadow.png");
+  background-repeat: no-repeat;
+
+}
+
 
 .buttons-list__item {
 }
@@ -72,14 +86,10 @@
   background-color: var(--header-section);
 }
 
-.service-desc {
-  flex-grow: 1;
-}
-
 .desc-list {
   margin: 0;
   padding: 0;
-  height: 100%;
+  flex-grow: 1;
 }
 
 .desc-list__content {

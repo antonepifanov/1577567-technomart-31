@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  overflow: hidden;
   margin-bottom: 18px;
 }
 
@@ -129,5 +130,22 @@
   border-color: var(--bookmark-active);
 }
 
-.perforator-list__item-new {
+.novelty::after {
+  position: absolute;
+  content: "new";
+  top: 10px;
+  right: -25px;
+  transform: rotate(45deg);
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--white);
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
