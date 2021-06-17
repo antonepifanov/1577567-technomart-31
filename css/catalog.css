@@ -66,10 +66,11 @@
 .slider-list__item {
   background-color: var(--grey);
   position: relative;
+  display: none;
 }
 
-.slider-list__item:first-of-type {
-  display: none;
+.slider-list__item-active {
+  display: block;
 }
 
 .slider-list__item a {
