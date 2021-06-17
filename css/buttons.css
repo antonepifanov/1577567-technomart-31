@@ -85,3 +85,41 @@
   background-color: var(--white);
   color: var(--red);
 }
+
+.close-button {
+  position: absolute;
+  display: block;
+  top: 14px;
+  right: 11px;
+  border-style: none;
+  background:none;
+  padding: 0;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+
+.close-button::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -3px;
+  width: 27px;
+  height: 4px;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  background-color: var(--red);
+}
+
+.close-button::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -3px;
+  width: 27px;
+  height: 4px;
+  transform: rotate(-45deg);
+  border-radius: 2px;
+  background-color: var(--red);
+}

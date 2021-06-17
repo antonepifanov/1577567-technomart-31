@@ -134,14 +134,3 @@ img {
   clip: rect(0 0 0 0);
 }
 
-.close-button {
-  position: absolute;
-  top: 21px;
-  right: 11px;
-  border-style: none;
-  background:none;
-  padding: 0;
-  cursor: pointer;
-  width: 21px;
-  height: 21px;
-}
