@@ -68,14 +68,16 @@
   background-color: var(--white);
   outline: none;
   padding-left: 42px;
-  z-index: 1;
   appearance: none;
 }
 
 .search__input:focus+svg {
   fill: var(--red);
   opacity: 1;
-  z-index: 1;
+}
+
+.search__input:focus~span {
+  display: none;
 }
 
 .search__input::-webkit-search-cancel-button {
