@@ -110,10 +110,12 @@
   font-family: "PTSans","Arial", sans-serif;
   font-size: 13px;
   line-height: 1.8;
+  max-width: 310px;
 }
 
 .desc-list__content-delivery {
   background: url("../img/delivery.png") no-repeat right bottom;
+  display: none;
 }
 
 .desc-list__content-guarantee {
@@ -122,6 +124,5 @@
 }
 
 .desc-list__content-credit {
-  display: none;
   background: url("../img/credit.png") no-repeat right bottom;
 }
