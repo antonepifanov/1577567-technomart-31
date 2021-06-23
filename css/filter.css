@@ -48,6 +48,84 @@
   margin-bottom: 23px;
 }
 
+.range-controls {
+  position: relative;
+  margin-bottom: 9px;
+  padding: 39px 20px;
+  background-color: var(--filter-bg);
+  border-radius: 5px;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: var(--greylight);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: var(--green);
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  border: 8px solid var(--white);
+  background-color: var(--toggle);
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 var(--toggle-shadow);
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-controls label {
+  font-size: 17px;
+  line-height: 1.1;
+}
+
+.price-controls input {
+  width: 95px;
+  padding: 10px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: var(--filter-bg);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.price-controls span {
+  color: var(--span);
+}
+
 .firms-check {
   list-style: none;
   padding: 0;

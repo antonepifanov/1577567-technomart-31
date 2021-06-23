@@ -40,6 +40,9 @@
   --button-active: #518534;
   --bookmark-active: #98A0AD;
   --cart-bg: #F1F1F1;
+  --toggle: #ABABAB;
+  --toggle-shadow: #E0DDD9;
+  --span: #444444;
 }
 
 @font-face {

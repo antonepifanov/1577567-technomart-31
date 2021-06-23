@@ -61,14 +61,18 @@
 .search__input {
   background-color: transparent;
   border-style: none;
+  padding-left: 42px;
+  font-size: 0;
   flex-grow: 1;
 }
 
 .search__input:focus {
   background-color: var(--white);
   outline: none;
-  padding-left: 42px;
   appearance: none;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--black);
 }
 
 .search__input:focus+svg {
@@ -123,6 +127,10 @@
 
 .user-menu__link:active>svg {
   opacity: 0.3;
+}
+
+.in-cart {
+  background-color: var(--red);
 }
 
 .checkout a {
