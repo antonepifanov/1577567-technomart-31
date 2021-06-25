@@ -124,7 +124,7 @@
             <li class="slider">
               <div class="slider-wrapper">
                 <ul class="slider-list">
-                  <li class="slider-list__item">
+                  <li class="slider-list__item" data-slide="1">
                     <div class="slide-desk">
                       <b>Перфораторы</b>
                       <span>Настоящие мужские игрушки</span>
@@ -132,7 +132,7 @@
                     <img src="img/perforator.jpg" width="620" height="266" alt="Мужчина, работающий перфоратором">
                     <a class="button section-button slider-link" href="catalog.html">Открыть каталог</a>
                   </li>
-                  <li class="slider-list__item slider-list__item-active">
+                  <li class="slider-list__item slider-list__item-active" data-slide="2">
                     <div class="slide-desk">
                       <b>Дрели</b>
                       <span>Соседям на радость!</span>
@@ -143,9 +143,9 @@
                 </ul>
                 <div class="slider-control">
                   <button class="slider-control__button" type="button" aria-label="Первый слайд"></button>
-                  <button class="slider-control__button slider-control__button-active" type="button" aria-label="Второй слайд"></button>
+                  <button class="slider-control__button slider-control__button-active" type="button" data-slideIndex="1" aria-label="Второй слайд"></button>
                 </div>
-                <button class="slider__button slider__button-prev" type="button" aria-label="Предыдущий слайд"></button>
+                <button class="slider__button slider__button-prev" type="button" data-slideIndex="2" aria-label="Предыдущий слайд"></button>
                 <button class="slider__button slider__button-next" type="button" aria-label="Следующий слайд"></button>
               </div>
             </li>
@@ -435,7 +435,7 @@
           </p>
           <p class="form-item form-item-mail">
             <label for="form_email">Ваш e-mail:</label>
-            <input type="email" name="email" id="form_email" placeholder="email@example.com" required>
+            <input type="email" name="email" id="form_email" placeholder="email@example.com">
           </p>
           <p class="form-item form-item-textarea">
             <label for="form_letter">Текст письма:</label>
@@ -453,5 +453,6 @@
       <img src="img/map-big.jpg" width="943" height="449" alt="Карта с изображением адреса г. Санкт-Петербург, наб. Реки Карповки, 5 лит П, по которому находится компания">
       <button  class="close-button" type="button" aria-label="Закрыть"></button>
     </section>
+    <script src="js/form.js"></script>
   </body>
 </html>
