@@ -1,6 +1,8 @@
 .cart {
-  position: relative;
+  display: none;
+  position: fixed;
   left: calc(50vw - 310px);
+  top: calc(50vh - 141px);
   width: 620px;
   height: 282px;
   background-color: var(--white);
@@ -8,6 +10,10 @@
   border-top: 7px solid var(--red);
   color: var(--black);
   text-align: center;
+}
+
+.cart-show {
+  display: block;
 }
 
 .cart strong {

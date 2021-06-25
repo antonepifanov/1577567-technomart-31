@@ -148,6 +148,10 @@ input[type="number"]:focus {
   left: -5px;
 }
 
+.firms-checkbox:not(:disabled)+label {
+  cursor: pointer;
+}
+
 .firms-checkbox+label::before {
   content: "";
   position: absolute;
@@ -213,6 +217,10 @@ input[type="number"]:focus {
   position: relative;
   margin-left: 30px;
   left: -5px;
+}
+
+.power-list__input:not(:disabled) label {
+  cursor: pointer;
 }
 
 .power-list__input {
