@@ -124,5 +124,10 @@
 }
 
 .desc-list__content-credit {
+  display: none;
   background: url("../img/credit.png") no-repeat right bottom;
+}
+
+.desc-list__conten-active {
+  display: block;
 }

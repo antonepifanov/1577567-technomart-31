@@ -110,16 +110,16 @@
   font-size: inherit;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+.price-controls input[type="number"]::-webkit-outer-spin-button,
+.price-controls input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
-input[type='number'],
-input[type="number"]:hover,
-input[type="number"]:focus {
-    appearance: none;
-    -moz-appearance: textfield;
+.price-controls input[type='number'],
+.price-controls input[type="number"]:hover,
+.price-controls input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
 }
 
 .price-controls span {

@@ -39,7 +39,7 @@
   flex-grow: 1;
   position: relative;
   display: flex;
-
+  cursor: pointer;
 }
 
 .search__label span {
@@ -64,6 +64,7 @@
   padding-left: 42px;
   font-size: 0;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .search__input:focus {
@@ -123,6 +124,7 @@
 
 .user-menu__link:active {
   background-color: var(--user-link-active);
+  color: var(--checkout-active);
 }
 
 .user-menu__link:active>svg {
@@ -133,17 +135,21 @@
   background-color: var(--red);
 }
 
-.checkout a {
+.in-cart:active {
+  background-color: var(--error);
+}
+
+.checkout {
   color: inherit;
   background-color: var(--green);
 }
 
-.checkout a:hover {
+.checkout:hover {
   background-color: var(--checkout-hover);
 }
 
-.checkout a:active {
-  color: var(--checkout-active);
+.checkout:active {
+  background-color: var(--green);
 }
 
 .header__content {

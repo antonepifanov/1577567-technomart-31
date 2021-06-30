@@ -35,9 +35,10 @@
 
 .account-list__link>span {
   color: var(--black);
-  font-family: Cuprum;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
-  line-height: 1;margin-left: 21px;
+  line-height: 1;
+  margin-left: 21px;
 }
 
 .account-list__link:active>span {
