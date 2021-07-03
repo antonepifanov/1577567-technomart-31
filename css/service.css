@@ -31,9 +31,6 @@
   padding-bottom: 4px;
 }
 
-.service-buttons {
-}
-
 .buttons-list {
   list-style: none;
   padding: 0;
@@ -53,10 +50,6 @@
   background-image: url("../img/service-shadow.png");
   background-repeat: no-repeat;
 
-}
-
-
-.buttons-list__item {
 }
 
 .buttons-list__button {

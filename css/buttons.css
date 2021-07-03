@@ -97,6 +97,7 @@
   cursor: pointer;
   width: 21px;
   height: 21px;
+  transition: all 0.3s ease-in-out;
 }
 
 .close-button::before {
@@ -121,4 +122,8 @@
   transform: rotate(-45deg);
   border-radius: 2px;
   background-color: var(--red);
+}
+
+.close-button:hover {
+  transform: scale(1.2);
 }

@@ -54,6 +54,7 @@
   outline: none;
   border: 2px solid var(--greylight);
   border-radius: 2px;
+  padding: 0 3px;
 }
 
 .form-item-textarea textarea {
@@ -62,6 +63,15 @@
   border: 2px solid var(--greylight);
   border-radius: 2px;
   resize: none;
+  padding: 0 3px;
+}
+
+.form-item input:hover, .form-item-textarea textarea:hover {
+  border: 2px solid var(--grey);
+}
+
+.form-item input:focus, .form-item-textarea textarea:focus {
+  border: 2px solid var(--nav-active);
 }
 
 .form-item-textarea textarea::placeholder, .form-item input::placeholder {

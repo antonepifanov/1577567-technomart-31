@@ -57,7 +57,7 @@
   box-shadow: 0px 4px 20px 0px var(--firm-link-hover);
 }
 
-.perforator-list__item:hover .card-hover {
+.perforator-list__item:hover .card-hover, .perforator-list__item:focus-within .card-hover {
   transform: scale(1);
   opacity: 1;
   transition: all 0.4s ease-in-out;
@@ -84,27 +84,28 @@
   justify-content: center;
   align-items: center;
   width: 135px;
-  height: 38px;
+  min-height: 38px;
   border-radius: 2px;
   text-transform: uppercase;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
-  padding: 0;
+  padding: 3px;
   cursor: pointer;
 }
 
 .buy {
-  background: var(--green) url("../img/icon-cart.svg") no-repeat 30px 10px;
+  background: var(--green);
   color: var(--white);
   border: none;
   box-shadow: 0px -3px 0px 0px var(--button-shadow) inset;
   margin-bottom: 10px;
 }
 
-.buy>span {
-  padding-left: 18px;
+.buy>svg {
+  margin: -3px 8px 0 0;
+  flex-shrink: 0;
 }
 
 .buy:hover {

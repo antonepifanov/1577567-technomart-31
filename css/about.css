@@ -13,6 +13,7 @@
   margin: 0 0 24px 0;
   padding: 0;
 }
+
 .about-info {
   max-width: 460px;
 }
@@ -22,7 +23,11 @@
   font-size: 13px;
   line-height: 1.8;
   padding: 0;
-  margin: 0 0 24px 0;
+  margin: 0;
+}
+
+.about-info p:first-of-type, .about-contacts p:first-of-type {
+  margin-bottom: 32px;
 }
 
 .about-info p:last-of-type {
@@ -58,9 +63,14 @@
 
 .about-contacts {
   margin-left: auto;
+  flex-basis: 32%;
 }
 
-.about-contacts a {
+.about-contacts p {
+  max-width: 180px;
+}
+
+.map-link {
   display: block;
   margin-bottom: 25px;
 }
