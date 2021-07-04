@@ -52,6 +52,7 @@
        url("../fonts/cuprum.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -61,6 +62,7 @@
        url("../fonts/cuprumbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -70,6 +72,7 @@
        url("../fonts/cuprumbolditalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -79,6 +82,7 @@
        url("../fonts/cuprumitalic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -88,6 +92,7 @@
        url("../fonts/ptsans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -97,6 +102,7 @@
        url("../fonts/ptsansbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
