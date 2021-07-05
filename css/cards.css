@@ -36,8 +36,11 @@
 .img-wrapper {
   order:-1;
   flex-grow: 1;
-  display: flex;justify-content: center;
+  display: flex;
+  padding-right: 12px;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .perforator-list__item s {
@@ -134,8 +137,8 @@
 .novelty::after {
   position: absolute;
   content: "new";
-  top: 10px;
-  right: -25px;
+  top: 9px;
+  right: -27px;
   transform: rotate(45deg);
   width: 100px;
   height: 30px;

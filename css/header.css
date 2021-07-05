@@ -107,7 +107,7 @@
 .user-menu__link {
   width: 100%;
   color: inherit;
-  padding: 0 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,7 +165,7 @@
   color: var(--red);
   font-size: 16px;
   font-style: italic;
-  line-height: 1.4;
+  line-height: 1.44;
   padding: 0 0 0 30px;
   margin: 0;
   margin-right: 93px;
@@ -200,7 +200,7 @@
   background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 39px 10px;
-  padding-left: 35px;
+  padding-left: 34px;
 }
 
 .header__address span {
@@ -249,7 +249,8 @@
 }
 
 .login__link>svg {
-  margin-right: 8px;
+  margin-right: 6px;
+  margin-left: -8px;
 }
 
 .login__link:hover {
@@ -274,6 +275,7 @@
   background-color: var(--header-address);
   box-shadow: 0px 5px 0px 0px var(--header-section);
   margin-top: 40px;
+  padding: 0 25px;
 }
 
 .nav-list {
@@ -285,8 +287,8 @@
 }
 
 .nav-list li {
-  min-width: 122px;
-  min-height: 60px;
+  min-width: 110px;
+  min-height: 56px;
   display: flex;
   flex-grow: 1;
 }

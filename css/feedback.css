@@ -1,5 +1,7 @@
 .feedback {
   display: none;
+  left: calc(50vw - 310px);
+  top: calc(50vh - 215px);
   position: fixed;
   width: 620px;
   height: 430px;
@@ -10,8 +12,6 @@
 
 .feedback-show {
   display: block;
-  left: calc(50vw - 310px);
-  top: calc(50vh - 215px);
   animation: bounce 0.6s;
 }
 
@@ -54,7 +54,7 @@
   outline: none;
   border: 2px solid var(--greylight);
   border-radius: 2px;
-  padding: 0 3px;
+  padding: 7px 12px;
 }
 
 .form-item-textarea textarea {
@@ -63,7 +63,7 @@
   border: 2px solid var(--greylight);
   border-radius: 2px;
   resize: none;
-  padding: 0 3px;
+  padding: 7px 12px;
 }
 
 .form-item input:hover, .form-item-textarea textarea:hover {
@@ -89,42 +89,3 @@
   background-color: var(--form_bg);
 }
 
-@keyframes bounce {
-  0% {
-    transform: translateY(-2000px);
-  }
-
-  70% {
-    transform: translateY(30px);
-  }
-
-  90% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-10px);
-  }
-
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(10px);
-  }
-}
