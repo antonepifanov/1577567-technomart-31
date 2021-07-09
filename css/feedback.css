@@ -50,20 +50,26 @@
 }
 
 .form-item input {
+  font-family: "PTSans","Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
   min-height: 38px;
   outline: none;
   border: 2px solid var(--greylight);
   border-radius: 2px;
-  padding: 7px 12px;
+  padding: 7px 11px;
 }
 
 .form-item-textarea textarea {
+  font-family: "PTSans","Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
   min-height: 114px;
   outline: none;
   border: 2px solid var(--greylight);
   border-radius: 2px;
   resize: none;
-  padding: 7px 12px;
+  padding: 5px 11px;
 }
 
 .form-item input:hover, .form-item-textarea textarea:hover {
@@ -85,7 +91,7 @@
 }
 
 .button-wrapper {
-  padding: 37px 80px;
+  padding: 36px 80px;
   background-color: var(--form_bg);
 }
 

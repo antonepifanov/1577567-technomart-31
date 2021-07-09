@@ -31,9 +31,8 @@
   font-size: 17px;
   line-height: 1;
   clip-path: polygon(0 0, 122px 0, 100% 50%, 122px 100%, 0 100%);
-  padding-top: 5px;
-  padding-bottom: 5px;
-
+  padding: 10px;
+  padding-left: 4px;
   border-radius: 3px;
   margin-left: 10px;
 }
@@ -106,8 +105,8 @@
 .close-button::before {
   content: "";
   position: absolute;
-  top: 8px;
-  left: -3px;
+  top: 6px;
+  left: -2px;
   width: 27px;
   height: 4px;
   transform: rotate(45deg);
@@ -118,8 +117,8 @@
 .close-button::after {
   content: "";
   position: absolute;
-  top: 8px;
-  left: -3px;
+  top: 6px;
+  left: -2px;
   width: 27px;
   height: 4px;
   transform: rotate(-45deg);

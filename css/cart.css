@@ -30,7 +30,7 @@
   content: "";
   position: absolute;
   left: 81px;
-  top: -15px;
+  top: -18px;
   width: 66px;
   height: 66px;
   background: var(--green) url("../img/check_in_cart.svg") no-repeat center center;
