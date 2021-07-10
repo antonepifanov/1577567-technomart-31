@@ -1,8 +1,0 @@
-.catalog-main {
-  padding-top: 20px;
-  padding-bottom: 59px;
-  display: grid;
-  grid-template-columns: 220px 3fr;
-  grid-template-rows: auto auto auto 1fr;
-  gap: 20px;
-}
